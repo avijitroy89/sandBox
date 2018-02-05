@@ -9,9 +9,9 @@
   "author": "avijit",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
     "body-parser": "*",
     "ejs": "*",
-    "mongoose": "*"
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3"
   }
 }

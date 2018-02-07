@@ -3,10 +3,8 @@ const myRoutes = require("./routes");
 const bodyParser = require('body-parser');
 
 const app = express();
-// for parsing application/json -- changed file
+// for parsing application/json 
 app.use(bodyParser.json()); 
-
-// for parsing application/xwww-
 app.use(bodyParser.urlencoded({ extended: true })); 
 
 app.set('view engine', "ejs");

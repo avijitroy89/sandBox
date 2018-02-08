@@ -18,5 +18,4 @@ app.use("/", myRoutes);
 
 app.listen(8000, (req, res)=>{   
     console.log('server is initialized');
-    res.end();
 })

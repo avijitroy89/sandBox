@@ -15,7 +15,6 @@ app.use(express.static('public'));
 
 
 app.use("/", myRoutes);
-app
 
 app.listen(8000, (req, res)=>{   
     console.log('server is initialized');

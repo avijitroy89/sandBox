@@ -35,6 +35,7 @@ var studentSchema = mongoose.Schema({
 
 myRoutes.get("/", (req, res)=>{
     res.render('index2');
+    res.end();
 });
 // myRoutes.get("/index2", (req, res)=>{
 //     res.render('index2');
@@ -84,5 +85,9 @@ myRoutes.get("/", (req, res)=>{
     
 // });
 
+myRoutes.get('/signup', (req, res)=>{
+    res.render('signup');
+    res.end();
+})
 // exporting myRoutes
 module.exports = myRoutes;

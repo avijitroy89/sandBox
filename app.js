@@ -16,8 +16,14 @@ app.use(express.static('public'));
 
 app.use("/", myRoutes);
 
+<<<<<<< HEAD
 
 app.listen(8000, (res)=>{
     console.log('server is initialized');
     // res.end('hello')
+=======
+app.listen(8000, (req, res)=>{   
+    console.log('server is initialized');
+    res.end();
+>>>>>>> 88203c555fb665b7e21edb229a3fba9cd887de92
 })
